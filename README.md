@@ -1,1 +1,41 @@
 # zhasminkass.github.io
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:/Users/user/Downloads/web/reg/css/style.css">
+    <title>Registration</title>
+    <script src="reg/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form action="contact.php" method="get">
+        <div class="container">
+          <h1>Register</h1>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw_repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw_repeat" required>
+          <hr>
+          <button type="submit" class="registerbtn"><a href="C:/Users/user/Downloads/web/site/index.html">Register</a></button>
+        </div>
+      
+        <div class="container signin">
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
+
+
+</body>
+</html>
